@@ -1,0 +1,12 @@
+<section class="flex">
+  <div *ngFor="let prod of productsList" class="mat-elevation-z4">
+    <p><strong>{{ prod.name }}</strong></p>
+    <mat-divider></mat-divider>
+    <p> Description: {{ prod.description }}</p>
+    <mat-divider></mat-divider>
+    <p> Price: {{ prod.price | currency: 'BRL'}}</p>
+    <div class="grid">
+      <button mat-raised-button class="button" (click)="addProductInShoppingCart(prod)">Add</button>
+    </div>
+  </div>
+</section>

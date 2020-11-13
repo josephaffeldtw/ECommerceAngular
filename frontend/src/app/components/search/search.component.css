@@ -1,0 +1,17 @@
+.header{
+  margin-top: 10px;
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.icon-add{
+  color: #f2f4f8;
+}
+
+.button{
+  background-color: #7EBC0A;
+}

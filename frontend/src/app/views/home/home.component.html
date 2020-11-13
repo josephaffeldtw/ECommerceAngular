@@ -1,0 +1,20 @@
+<div class="container-home">
+  <app-search></app-search>
+</div>
+<section class="flex">
+  <div *ngFor="let prod of productsList" class="mat-elevation-z4">
+    <div class="grid">
+      <p ><strong>{{ prod.name }}</strong></p>
+      <button class="icon" mat-icon-button aria-label="Example icon button with a vertical three dot icon"
+      (click)="openDialog()">
+        <mat-icon >create</mat-icon>
+      </button>
+    </div>
+    <mat-divider></mat-divider>
+    <p> Description: {{ prod.description }}</p>
+    <mat-divider></mat-divider>
+    <p> Price: {{ prod.price | currency: 'BRL'}}</p>
+
+  </div>
+</section>
+

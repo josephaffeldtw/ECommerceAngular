@@ -1,0 +1,14 @@
+.footer{
+  position: fixed;
+  bottom: 0;
+  background: #7EBC0A;
+  color: #383838;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer > span {
+  margin-right: 20px;
+}

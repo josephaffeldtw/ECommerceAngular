@@ -1,0 +1,16 @@
+.content{
+  background-color: #f2f4f8;
+  min-height: calc(100vh - 126px);
+}
+.sidenav{
+  background: #FFF;
+  width: 200px;
+}
+
+.sidenav a {
+  color: #7EBC0A;
+}
+
+mat-icon{
+  padding-right: 15px;
+}

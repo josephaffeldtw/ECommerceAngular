@@ -1,0 +1,35 @@
+p {
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flex > div {
+  background-color: #fff;
+  color: #383838;
+  border-radius: 5px;
+  flex: 1 1 200px;
+  margin: 10px;
+  width: 250px;
+  padding: 10px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.button {
+  background-color: #7EBC0A;
+  color: #f2f4f8;
+  grid-column: 3;
+}

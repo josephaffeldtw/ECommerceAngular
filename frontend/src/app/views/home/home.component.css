@@ -1,0 +1,43 @@
+p {
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flex > div {
+  background-color: #fff;
+  color: #383838;
+  border-radius: 5px;
+  flex: 1 1 200px;
+  margin: 10px;
+  width: 250px;
+  padding: 10px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo {
+  grid-column: 1/4;
+}
+
+.icon {
+  justify-items: end;
+  color: #7EBC0A;
+  grid-column: 4;
+}
+
+.container-home {
+  margin: 20px 20px;
+}

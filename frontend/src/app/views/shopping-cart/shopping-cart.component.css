@@ -1,0 +1,29 @@
+table {
+  width: calc(100% - 20px);
+  margin: 10px;
+}
+
+.example-first-header-row th {
+  border-bottom: none;
+}
+
+.example-second-header-row {
+  font-style: italic;
+}
+
+.example-first-footer-row {
+  font-weight: bold;
+}
+
+.example-second-footer-row td {
+  color: #900000;
+}
+
+.icon {
+  color: #f26549;
+}
+
+.btn{
+  background-color: #7EBC0A;
+  color: #f2f4f8;
+}

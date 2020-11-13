@@ -1,0 +1,5 @@
+<mat-nav-list>
+  <a mat-list-item *ngFor="let tp of typePayments"(click)="openLink($event)">
+    <span mat-line>{{tp.type}}</span>
+  </a>
+</mat-nav-list>

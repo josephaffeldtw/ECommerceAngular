@@ -1,0 +1,24 @@
+.header{
+  margin: 10px auto;
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+h2{
+  padding: 10px;
+  margin: 0px;
+  color: #383838;
+}
+
+.icon-add{
+  color: #f2f4f8;
+}
+
+.button{
+  background-color: #7EBC0A;
+}

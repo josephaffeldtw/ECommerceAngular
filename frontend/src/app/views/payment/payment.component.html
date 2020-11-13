@@ -1,0 +1,19 @@
+<header class="header mat-elevation-z4">
+
+  <h2>Choose payment method: </h2>
+  <mat-form-field>
+    <mat-label>Payment method</mat-label>
+    <mat-select [(ngModel)]="selectedValue" name="type">
+      <mat-option *ngFor="let tp of typePayments" [value]="tp.type">
+        {{tp.type}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</header>
+
+<header class="header mat-elevation-z4" *ngIf="selectedValue">
+
+  <h2>Value total: </h2>
+  <h2>{{calcValue() | currency: 'BRL'}}</h2>
+
+</header>

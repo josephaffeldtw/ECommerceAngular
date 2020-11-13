@@ -1,0 +1,20 @@
+a {
+  margin: 0px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: #f2f4f8;
+}
+
+.header{
+  background: #7EBC0A;
+  color: #f2f4f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.icon-shop{
+  color: #7EBC0A;
+}

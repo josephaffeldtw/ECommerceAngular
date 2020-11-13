@@ -27,7 +27,6 @@ export class ShoppingCartComponent implements OnInit {
 
   getProducts(): void {
     this.scService.getProductsShoppingCart().subscribe(list => {
-      console.log('Observable');
       this.listSC = list;
     });
   }

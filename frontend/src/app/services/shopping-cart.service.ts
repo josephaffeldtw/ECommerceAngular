@@ -10,7 +10,8 @@ export class ShoppingCartService {
   apiUrl = 'http://localhost:3001/shopping-cart';
 
 
-  constructor(private http: HttpClient, private snackBar: MatSnackBar) { }
+  constructor(private http: HttpClient, private snackBar: MatSnackBar) {
+  }
 
   showMessage(msg: string): void {
     this.snackBar.open(msg, 'X', {
@@ -20,19 +21,17 @@ export class ShoppingCartService {
     });
   }
 
-  getProductsShoppingCart(): Observable<Products[]>{
+  getProductsShoppingCart(): Observable<Products[]> {
     console.log('chamou o subject');
     return this.http.get<Products[]>(this.apiUrl);
   }
 
-  postProductsShoppingCart(prod: Products): Observable<Products>{
+  postProductsShoppingCart(prod: Products): Observable<Products> {
     return this.http.post<Products>(this.apiUrl, prod);
   }
 
-  removeProductShoppingCart(id: number): Observable<Products>{
-    const url = `${this.apiUrl}/${id}`;
+  removeProductShoppingCart(id: number): Observable<Products> {
+    const url = `${ this.apiUrl }/${ id }`;
     return this.http.delete<Products>(url);
   }
-
-
 }

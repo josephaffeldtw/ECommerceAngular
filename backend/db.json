@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MacBook Pro",
+      "price": 11000,
+      "description": "i7 16Gb SSD"
+    },
+    {
+      "id": 2,
+      "name": "Mouse Razer Deathadder",
+      "price": 329.5,
+      "description": "6 Botões 3600dpi"
+    },
+    {
+      "id": 3,
+      "name": "Teclado Razer Chroma",
+      "price": 565.88,
+      "description": "Teclado Mecanico"
+    },
+    {
+      "id": 4,
+      "name": "Mouse pad Razer",
+      "price": 120,
+      "description": "Large"
+    },
+    {
+      "id": 5,
+      "name": "Notebook DELL",
+      "price": 3000,
+      "description": "i5 8Gb"
+    },
+    {
+      "id": 6,
+      "name": "Monitor MSI 29'",
+      "price": 990,
+      "description": "144hz"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "type": "DEBIT"
+    },
+    {
+      "id": 2,
+      "type": "CREDIT"
+    },
+    {
+      "id": 3,
+      "type": "BILLET"
+    },
+    {
+      "id": 4,
+      "type": "PAYPAL"
+    }
+  ],
+  "value": [
+    {
+      "id": 1,
+      "value": 11895.38
+    }
+  ],
+  "shopping-cart": [
+    {
+      "id": 1,
+      "name": "MacBook Pro",
+      "price": 11000,
+      "description": "i7 16Gb SSD"
+    },
+    {
+      "id": 2,
+      "name": "Mouse Razer Deathadder",
+      "price": 329.5,
+      "description": "6 Botões 3600dpi"
+    },
+    {
+      "id": 3,
+      "name": "Teclado Razer Chroma",
+      "price": 565.88,
+      "description": "Teclado Mecanico"
+    }
+  ]
+}
